@@ -1,1 +1,1 @@
-chmod -R +rX,u+w,go-wx /var/www/html
+chmod -R +rX,u+w,go-w /var/www/html
