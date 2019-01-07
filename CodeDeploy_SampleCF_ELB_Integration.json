@@ -340,14 +340,14 @@
         } ],
         "HealthCheck" : {
           "Target" : "HTTP:80/",
-          "HealthyThreshold" : "3",
+          "HealthyThreshold" : "2",
           "UnhealthyThreshold" : "5",
-          "Interval" : "30",
-          "Timeout" : "5"
+          "Interval" : "5",
+          "Timeout" : "4"
         },
         "ConnectionDrainingPolicy" : {
            "Enabled" : "true",
-           "Timeout" : "300"
+           "Timeout" : "2"
         }
       }
     },
