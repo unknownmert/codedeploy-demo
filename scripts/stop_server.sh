@@ -1,1 +1,1 @@
-service httpd stop
+systemctl stop httpd
