@@ -6,8 +6,9 @@ Parameters:
   InstanceType:
     Description: WebServer EC2 instance type
     Type: String
-    Default: t3.nano
+    Default: t2.micro
     AllowedValues:
+      - t2.micro
       - t3.nano
       - t3.micro
       - t3.small
@@ -33,6 +34,8 @@ Parameters:
     ConstraintDescription: Valid CIDR pattern required in the format x.x.x.x/x.
 Mappings:
   AWSInstanceType2Arch:
+    t2.micro:
+      Arch: HVM64
     t3.nano:
       Arch: HVM64
     t3.micro:
