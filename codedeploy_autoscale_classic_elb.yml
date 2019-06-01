@@ -147,9 +147,6 @@ Resources:
                 files:
                   - /etc/cfn/cfn-hup.conf
                   - /etc/cfn/hooks.d/cfn-auto-reloader.conf
-              codedeploy-agent:
-                enabled: 'true'
-                ensureRunning: 'true'
     Properties:
       KeyName: !Ref KeyName
       ImageId: !FindInMap 
