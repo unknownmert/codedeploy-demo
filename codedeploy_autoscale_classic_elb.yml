@@ -7,7 +7,7 @@ Parameters:
     Description: WebServer EC2 instance type
     Type: String
     Default: t2.micro
-    AllowedValues:
+    AllowedValues: 
       - t2.micro
       - t3.nano
       - t3.micro
